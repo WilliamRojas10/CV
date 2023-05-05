@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    height: calc(100vh - 15px);
+    border: solid 1px black;
+    margin: 5px 380px;
+}
+
+#principal{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0 0 0;
+    gap:15px
+}
+
+.habilidades{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    gap: 10px;
+}
+
+
+
+#lateral{
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding: 0 25px;
+    gap: 25px;
+    
+}
+
+.perfil{
+    height: 160px;
+    margin: 25px 0 0 0 ;
+}
+.perfil img{
+    border-radius: 50%;
+    height: 100%;
+}
+
+.datos{
+    color: aliceblue ;
+}

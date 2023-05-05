@@ -1,2 +1,2 @@
 # CV
-Curriculum Vitae
+Creando un Curriculum Vitae web
